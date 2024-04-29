@@ -11,5 +11,3 @@ To run:
 ```bash
 node index.js
 ```
-# ledger-cip64
-# ledger-cip64

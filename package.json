@@ -1,0 +1,21 @@
+{
+  "name": "ledger-cip64",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@celo/base": "^6.0.1",
+    "@celo/wallet-base": "^5.2.0",
+    "@ledgerhq/hw-app-eth": "^6.36.0",
+    "@ledgerhq/hw-transport-node-hid": "^6.28.6",
+    "patch-package": "^8.0.0"
+  }
+}
