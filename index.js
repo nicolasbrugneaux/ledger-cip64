@@ -72,7 +72,7 @@ async function main() {
   await signTransaction(
     ledger,
     {
-      feeCurrency: "0x0000000000000000000000000000000000000001",
+      feeCurrency: "0x765de816845861e75a25fca122bb6898b8b1282a",
     },
     "cip64"
   );
@@ -81,7 +81,7 @@ async function main() {
   await signTransaction(
     ledger,
     {
-      feeCurrency: "0x0000000000000000000000000000000000000001",
+      feeCurrency: "0x765de816845861e75a25fca122bb6898b8b1282a",
       data: "0xabcdef",
     },
     "cip64 with data"
