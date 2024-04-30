@@ -8,7 +8,7 @@ const { default: TransportNodeHid } = transportPkg;
 export const CELO_BASE_DERIVATION_PATH = `${CELO_DERIVATION_PATH_BASE.slice(
   2
 )}/0`;
-const CHAIN_ID = 44378;
+const CHAIN_ID = 44787;
 
 /**
  *
