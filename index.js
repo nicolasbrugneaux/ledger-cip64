@@ -37,6 +37,9 @@ async function signTransaction(ledger, overrides = {}, name = "eip1559") {
     ...baseTx,
     ...overrides,
   });
+  if (type === "cip64") {
+    await addcUSDasFeeCurrency(ledger);
+  }
   console.log(`\n==================== BEGIN ${name} ====================`);
   console.info(`Signing...`, { transaction, rlpEncode, type });
   try {
